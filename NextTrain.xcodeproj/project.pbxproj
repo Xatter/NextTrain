@@ -13,6 +13,12 @@
 		F0E2E61B1A34A4AB00E4C1B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E2E61A1A34A4AB00E4C1B8 /* Images.xcassets */; };
 		F0E2E61E1A34A4AB00E4C1B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E2E61C1A34A4AB00E4C1B8 /* LaunchScreen.xib */; };
 		F0E2E62A1A34A4AB00E4C1B8 /* NextTrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2E6291A34A4AB00E4C1B8 /* NextTrainTests.swift */; };
+		F0E2E6341A34A6FE00E4C1B8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2E6331A34A6FE00E4C1B8 /* SwiftyJSON.swift */; };
+		F0E2E63C1A34B2C300E4C1B8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E2E63B1A34B2C300E4C1B8 /* NotificationCenter.framework */; };
+		F0E2E6411A34B2C300E4C1B8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2E6401A34B2C300E4C1B8 /* TodayViewController.swift */; };
+		F0E2E6431A34B2C300E4C1B8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E2E6421A34B2C300E4C1B8 /* MainInterface.storyboard */; };
+		F0E2E6461A34B2C300E4C1B8 /* NextTrainMini.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F0E2E6391A34B2C300E4C1B8 /* NextTrainMini.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F0E2E64C1A34B2EF00E4C1B8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2E64B1A34B2EF00E4C1B8 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,28 @@
 			remoteGlobalIDString = F0E2E60D1A34A4AB00E4C1B8;
 			remoteInfo = NextTrain;
 		};
+		F0E2E6441A34B2C300E4C1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E2E6061A34A4AB00E4C1B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0E2E6381A34B2C300E4C1B8;
+			remoteInfo = NextTrainMini;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0E2E64A1A34B2C300E4C1B8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F0E2E6461A34B2C300E4C1B8 /* NextTrainMini.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F0E2E60E1A34A4AB00E4C1B8 /* NextTrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextTrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +63,13 @@
 		F0E2E6231A34A4AB00E4C1B8 /* NextTrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextTrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E2E6281A34A4AB00E4C1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0E2E6291A34A4AB00E4C1B8 /* NextTrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTrainTests.swift; sourceTree = "<group>"; };
+		F0E2E6331A34A6FE00E4C1B8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		F0E2E6391A34B2C300E4C1B8 /* NextTrainMini.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NextTrainMini.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E2E63B1A34B2C300E4C1B8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		F0E2E63F1A34B2C300E4C1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E2E6401A34B2C300E4C1B8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		F0E2E6421A34B2C300E4C1B8 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		F0E2E64B1A34B2EF00E4C1B8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +87,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0E2E6361A34B2C300E4C1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E2E63C1A34B2C300E4C1B8 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +103,8 @@
 			children = (
 				F0E2E6101A34A4AB00E4C1B8 /* NextTrain */,
 				F0E2E6261A34A4AB00E4C1B8 /* NextTrainTests */,
+				F0E2E63D1A34B2C300E4C1B8 /* NextTrainMini */,
+				F0E2E63A1A34B2C300E4C1B8 /* Frameworks */,
 				F0E2E60F1A34A4AB00E4C1B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +114,7 @@
 			children = (
 				F0E2E60E1A34A4AB00E4C1B8 /* NextTrain.app */,
 				F0E2E6231A34A4AB00E4C1B8 /* NextTrainTests.xctest */,
+				F0E2E6391A34B2C300E4C1B8 /* NextTrainMini.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +122,7 @@
 		F0E2E6101A34A4AB00E4C1B8 /* NextTrain */ = {
 			isa = PBXGroup;
 			children = (
+				F0E2E6331A34A6FE00E4C1B8 /* SwiftyJSON.swift */,
 				F0E2E6131A34A4AB00E4C1B8 /* AppDelegate.swift */,
 				F0E2E6151A34A4AB00E4C1B8 /* ViewController.swift */,
 				F0E2E6171A34A4AB00E4C1B8 /* Main.storyboard */,
@@ -112,6 +158,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F0E2E63A1A34B2C300E4C1B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2E63B1A34B2C300E4C1B8 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0E2E63D1A34B2C300E4C1B8 /* NextTrainMini */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2E64B1A34B2EF00E4C1B8 /* SwiftyJSON.swift */,
+				F0E2E6401A34B2C300E4C1B8 /* TodayViewController.swift */,
+				F0E2E6421A34B2C300E4C1B8 /* MainInterface.storyboard */,
+				F0E2E63E1A34B2C300E4C1B8 /* Supporting Files */,
+			);
+			path = NextTrainMini;
+			sourceTree = "<group>";
+		};
+		F0E2E63E1A34B2C300E4C1B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2E63F1A34B2C300E4C1B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +195,12 @@
 				F0E2E60A1A34A4AB00E4C1B8 /* Sources */,
 				F0E2E60B1A34A4AB00E4C1B8 /* Frameworks */,
 				F0E2E60C1A34A4AB00E4C1B8 /* Resources */,
+				F0E2E64A1A34B2C300E4C1B8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F0E2E6451A34B2C300E4C1B8 /* PBXTargetDependency */,
 			);
 			name = NextTrain;
 			productName = NextTrain;
@@ -150,6 +225,23 @@
 			productReference = F0E2E6231A34A4AB00E4C1B8 /* NextTrainTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F0E2E6381A34B2C300E4C1B8 /* NextTrainMini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0E2E6471A34B2C300E4C1B8 /* Build configuration list for PBXNativeTarget "NextTrainMini" */;
+			buildPhases = (
+				F0E2E6351A34B2C300E4C1B8 /* Sources */,
+				F0E2E6361A34B2C300E4C1B8 /* Frameworks */,
+				F0E2E6371A34B2C300E4C1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NextTrainMini;
+			productName = NextTrainMini;
+			productReference = F0E2E6391A34B2C300E4C1B8 /* NextTrainMini.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +257,9 @@
 					F0E2E6221A34A4AB00E4C1B8 = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = F0E2E60D1A34A4AB00E4C1B8;
+					};
+					F0E2E6381A34B2C300E4C1B8 = {
+						CreatedOnToolsVersion = 6.1;
 					};
 				};
 			};
@@ -183,6 +278,7 @@
 			targets = (
 				F0E2E60D1A34A4AB00E4C1B8 /* NextTrain */,
 				F0E2E6221A34A4AB00E4C1B8 /* NextTrainTests */,
+				F0E2E6381A34B2C300E4C1B8 /* NextTrainMini */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +301,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0E2E6371A34B2C300E4C1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E2E6431A34B2C300E4C1B8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -212,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E2E6341A34A6FE00E4C1B8 /* SwiftyJSON.swift in Sources */,
 				F0E2E6161A34A4AB00E4C1B8 /* ViewController.swift in Sources */,
 				F0E2E6141A34A4AB00E4C1B8 /* AppDelegate.swift in Sources */,
 			);
@@ -225,6 +330,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0E2E6351A34B2C300E4C1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E2E6411A34B2C300E4C1B8 /* TodayViewController.swift in Sources */,
+				F0E2E64C1A34B2EF00E4C1B8 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +346,11 @@
 			isa = PBXTargetDependency;
 			target = F0E2E60D1A34A4AB00E4C1B8 /* NextTrain */;
 			targetProxy = F0E2E6241A34A4AB00E4C1B8 /* PBXContainerItemProxy */;
+		};
+		F0E2E6451A34B2C300E4C1B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0E2E6381A34B2C300E4C1B8 /* NextTrainMini */;
+			targetProxy = F0E2E6441A34B2C300E4C1B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -338,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = NextTrain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = NextTrain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +509,30 @@
 			};
 			name = Release;
 		};
+		F0E2E6481A34B2C300E4C1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NextTrainMini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F0E2E6491A34B2C300E4C1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NextTrainMini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +558,14 @@
 			buildConfigurations = (
 				F0E2E6311A34A4AB00E4C1B8 /* Debug */,
 				F0E2E6321A34A4AB00E4C1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0E2E6471A34B2C300E4C1B8 /* Build configuration list for PBXNativeTarget "NextTrainMini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E2E6481A34B2C300E4C1B8 /* Debug */,
+				F0E2E6491A34B2C300E4C1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
